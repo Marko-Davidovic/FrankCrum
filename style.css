@@ -1,0 +1,135 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px !important;
+    padding: 0px !important;
+    overflow-x: hidden; 
+    
+}
+
+.navbar{
+    background-color: #002e6c;
+    width: 100%;
+    text-decoration: none;  
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nav-text {
+    padding-right: 960px;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+.navigation{
+    background-color: #08a7eb;
+    text-decoration: white;
+    z-index: 1;
+}
+strong{
+    font-weight: bold;
+}
+
+h2 {
+    color:#002e6c ; 
+}
+
+h3 {
+    color:#002e6c ;
+}
+h4 {
+    color: grey;
+}
+a {
+    text-decoration:none;
+}
+
+.hr {
+    padding: 3px;
+    border-width:0;
+    background-color:#002e6c; 
+    opacity: 1;
+}
+
+.card {
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #002e6c;
+}
+
+
+.form-control{
+    color: gray;
+    
+}
+
+.grid-view {
+    padding-left: 5vh;
+    text-decoration: none !important;
+    
+}
+
+.list-view {
+    padding-left: 5vh;  
+}
+
+.btn {
+    background-color: #08a7eb;
+    size: 100%;
+    column-width: 100%; 
+    border-color: #ddd;
+    
+}
+input, button, .btn {
+    border-radius: 0 !important;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.btn-secondary{
+    background-color: white;
+    color:black;
+}
+
+.btn-reset {
+    margin-left: 5vh;
+    align-content: center;
+    margin-left: 5vh;
+}
+
+.footer-left {
+    background-color: #adb5bd;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.middle {
+    cursor: pointer;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+  
+  .container:hover .img-fluid {
+    opacity: 0.1;
+    
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #08a7eb;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 25px;
+  }
