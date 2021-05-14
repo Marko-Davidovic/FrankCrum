@@ -5,17 +5,17 @@
 }
 
 .navigation {
- /* padding-left: 20px; */
+  /* padding-left: 20px; */
   background-color: #08a7eb;
   color: white;
-  
-  
 }
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
-    color: white;
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: white;
 }
-.navbar-light .navbar-nav .nav-link{
-    color: white;
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
 }
 
 h2 {
@@ -46,19 +46,16 @@ a {
   border: none;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Source Sans Pro', sans-serif;
-  
 }
-
-
 
 .grid-view {
   text-decoration: none !important;
   color: #08a7eb;
 }
-.list-view {
-    color: #333;
-}
 
+.list-view {
+  color: #333;
+}
 
 .btn {
   background-color: #08a7eb;
@@ -81,5 +78,4 @@ footer {
   background-color: #adb5bd;
   color: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-
 }
