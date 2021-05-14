@@ -5,8 +5,17 @@
 }
 
 .navigation {
+ /* padding-left: 20px; */
   background-color: #08a7eb;
-  text-decoration: white;
+  color: white;
+  
+  
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
 }
 
 h2 {
@@ -33,25 +42,23 @@ a {
 }
 
 .card {
+  color: #002e6c;
   border: none;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Source Sans Pro', sans-serif;
-  color: #002e6c;
-  flex-wrap: wrap;
+  
 }
 
-.form-control {
-  color: gray;
-}
+
 
 .grid-view {
   text-decoration: none !important;
-  color: #002e6c;
+  color: #08a7eb;
+}
+.list-view {
+    color: #333;
 }
 
-.fas {
-  color: #08a7eb
-}
 
 .btn {
   background-color: #08a7eb;
@@ -70,15 +77,9 @@ input, button, .btn {
   color: black;
 }
 
-.btn-reset {
-  margin-left: 5vh;
-  align-content: center;
-  margin-left: 5vh;
-}
-
-.footer-left {
+footer {
   background-color: #adb5bd;
   color: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding-left: 50px;
+
 }
