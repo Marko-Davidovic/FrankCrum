@@ -14,8 +14,6 @@
 .navigation{
     background-color: #08a7eb;
     text-decoration: white;
-    z-index: 1;
-    flex-wrap: wrap;
 }
 .options{
 flex-wrap: wrap;
@@ -60,27 +58,28 @@ a {
 }
 
 .grid-view {
-    padding-left: 5vh;
+    /* padding-left: 5vh; */
     text-decoration: none !important;
-    
+    color: #002e6c;
+}
+.fas{
+    color: #08a7eb
 }
 
-.list-view {
+/* .list-view {
     padding-left: 5vh;  
-}
+} */
 
 .btn {
     background-color: #08a7eb;
-    size: 100%;
-    column-width: 100%; 
     border-color: #ddd;
     
 }
 input, button, .btn {
     border-radius: 0 !important;
     font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .btn-secondary{
@@ -98,6 +97,8 @@ font-family: 'Source Sans Pro', sans-serif;
     background-color: #adb5bd;
     color: white;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+    
 }
 /* 
 .middle {
